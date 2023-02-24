@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+	background-color: rgb(56, 58, 89);
+	color: rgb(220, 220, 220);
+}</string>
+   </property>
+   <widget class="QPushButton" name="home">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>50</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Home Page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="goback">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>100</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Go Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logout">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>200</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Sign Out</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="seoguidescreen">
+    <property name="geometry">
+     <rect>
+      <x>645</x>
+      <y>150</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>SEO Guide</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableWidget">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>360</y>
+      <width>600</width>
+      <height>230</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTableWidget:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>15</y>
+      <width>600</width>
+      <height>300</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame#frame{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QFrame#frame:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="message_1">
+     <property name="geometry">
+      <rect>
+       <x>-36</x>
+       <y>360</y>
+       <width>761</width>
+       <height>97</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	color: rgb(255, 0, 0);
+}
+</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="save">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>260</y>
+       <width>300</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	background-color: rgb(56, 58, 89);
+	color: rgb(213, 71, 0);
+	border: none;
+	padding-left: 5px;
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Save Details</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>130</y>
+       <width>250</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTextBrowser:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>15</x>
+       <y>130</y>
+       <width>250</width>
+       <height>120</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTextEdit:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Get Keyword Suggestions from your Meta Description to support your Keyword Planning activity</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser_2">
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>10</y>
+       <width>250</width>
+       <height>110</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTextBrowser:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="descriptionButton">
+     <property name="geometry">
+      <rect>
+       <x>267</x>
+       <y>150</y>
+       <width>70</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	background-color: rgb(56, 58, 89);
+	color: rgb(213, 71, 0);
+	border: none;
+	padding-left: 5px;
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Suggest</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="keyword">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>60</y>
+       <width>200</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	background-color: rgb(56, 58, 89);
+	color: rgb(213, 71, 0);
+	border: none;
+	padding-left: 5px;
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Suggest Keyword</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="clearButton">
+     <property name="geometry">
+      <rect>
+       <x>267</x>
+       <y>184</y>
+       <width>70</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	background-color: rgb(56, 58, 89);
+	color: rgb(213, 71, 0);
+	border: none;
+	padding-left: 5px;
+	border-radius: 10px;
+
+}
+
+QPushButton:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Clear</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>25</x>
+       <y>10</y>
+       <width>250</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextEdit{
+	background-color: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QTextEdit:hover{
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+     </property>
+     <property name="placeholderText">
+      <string>Type in a Keyword</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>335</y>
+      <width>600</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	background-color: rgb(56, 58, 89);
+	color: rgb(213, 71, 0);
+	font: 75 12pt &quot;Constantia&quot;;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Data Information</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="message">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>305</y>
+      <width>600</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: rgb(255, 0, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <zorder>tableWidget</zorder>
+   <zorder>home</zorder>
+   <zorder>goback</zorder>
+   <zorder>logout</zorder>
+   <zorder>seoguidescreen</zorder>
+   <zorder>label</zorder>
+   <zorder>frame</zorder>
+   <zorder>message</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

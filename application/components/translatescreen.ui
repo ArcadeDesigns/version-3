@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+	background-color: rgb(56, 58, 89);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+}</string>
+   </property>
+   <widget class="QTextEdit" name="textEdit_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>325</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTextEdit:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+    </property>
+    <property name="html">
+     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="textEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>20</y>
+      <width>325</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 5px;
+}
+
+QTextEdit:hover{
+	border: 3px solid rgb(230, 208, 255);
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="malevoice">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>60</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(212, 180, 255);
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	background-color: rgb(212, 180, 255);
+}
+
+QPushButton:hover{
+	border: 3px solid rgb(230, 208, 255);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="femalevoice">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>60</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(212, 180, 255);
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	border: 3px solid rgb(230, 208, 255);
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/images/speakericon.png</normaloff>:/images/speakericon.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>490</y>
+      <width>325</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 8px;
+	font: 75 10pt &quot;Constantia&quot;;
+}</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>490</y>
+      <width>325</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox{
+	background-color: rgba(0, 0, 0, 75);
+	color: rgb(220, 220, 220);
+	border-radius: 10px;
+	margin: 3px;
+	padding: 8px;
+	font: 75 10pt &quot;Constantia&quot;;
+}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="translateButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>140</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(212, 180, 255);
+	border-bottom-right-radius: 30px;
+	border-top-left-radius: 30px;
+	background-color: rgb(255, 174, 211);
+}
+
+QPushButton:hover{
+	border: 3px solid rgb(230, 208, 255);
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 0px;
+	border-top-left-radius: 0px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/images/transimages.jpeg</normaloff>:/images/transimages.jpeg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="clearButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>200</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border: 2px solid rgb(212, 180, 255);
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+QPushButton:hover{
+	border: 3px solid rgb(230, 208, 255);
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/images/clear.png</normaloff>:/images/clear.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="home">
+    <property name="geometry">
+     <rect>
+      <x>245</x>
+      <y>530</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Home Page</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="goback">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>530</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Go Back</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>455</x>
+      <y>530</y>
+      <width>100</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgba(46, 82, 101, 200);
+	padding-left: 5px;
+}
+
+QPushButton:hover{
+	font: 75 9pt &quot;Constantia&quot;;
+	color: rgb(255, 85, 0);
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	border-bottom: 2px solid rgb(255, 85, 0);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
